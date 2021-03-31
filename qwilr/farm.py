@@ -13,7 +13,7 @@ class Farm:
         self.crops = []
         self.max_size = max_size
 
-    def add(self, crop) -> bool:
+    def add(self, crop: Crop) -> bool:
         """Add a crop onto the farm
         :param crop: Crop object
         :return: return if the crop is true

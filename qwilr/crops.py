@@ -29,6 +29,6 @@ class Crop:
         return self.sell_price
 
     def total_sell_price(self) -> int:
-        """Get total price of the crop
+        """Get total price for the crop
         """
         return self.get_price_per_unit()*self.get_size()
