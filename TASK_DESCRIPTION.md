@@ -46,3 +46,16 @@ The farm class should be given:
 For example, a farm of maximum size 10 can have 10 corn, or 5 corn and 5 tomatoes, but not 5 corn and 6 tomatoes.
 
 Crops are created with a `sellPrice` field that determines the money made from the crop (per unit in the amount).
+
+
+**## Stage 3**
+
+Farms now have multiple fields, with each field having a different type and size. A farm's size is now the sum of all of its fields' sizes.
+
+- Crops also have a new `type` property that needs to match a field in the farm. A crop cannot be added to a farm which does not have a field of the appropriate type.
+- Maintain the existing public function interface of the farm
+
+*For example:*
+
+- A field may be of type "grass" and a cow with type "grass" can be put on
+    there, however a carrot of type "dirt" could not

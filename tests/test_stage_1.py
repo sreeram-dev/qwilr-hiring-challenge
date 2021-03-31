@@ -22,8 +22,7 @@ class TestStage1(unittest.TestCase):
 
         for testCrop in test_crops:
             result = self.farm.add(testCrop)
-
-        self.assertTrue(result)
+            self.assertTrue(result)
 
     def test_get_empty_counts(self):
         self.assertEqual(self.farm.get_counts(), [])
