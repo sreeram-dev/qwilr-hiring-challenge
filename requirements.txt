@@ -1,0 +1,5 @@
+requests==2.25.1
+pytest==6.2.2
+faker==6.6.1
+redis==3.5.3
+uuid==1.30.0

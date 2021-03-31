@@ -1,0 +1,10 @@
+#!/usr/bin/zsh
+# This hook is sourced after this virtualenv is activated.
+
+
+export PROJECT_PATH=$HOME/projects/qwilr
+export SOURCE_PATH=$HOME/projects/qwilr/
+export PYTHONPATH=$PYTHONPATH:$SOURCE_PATH
+
+cd $PROJECT_PATH
+
